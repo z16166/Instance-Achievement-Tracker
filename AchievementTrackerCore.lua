@@ -306,9 +306,9 @@ function getPlayersInGroup()
 				end
 
 				if foundAchievement == false then
-					core:printMessage(L["Core_CompletedAllAchievements"] .. " " .. achievements)
+					core:printMessage(L["Core_CompletedAllAchievements"])
 				else
-					core:printMessage(L["Core_IncompletedAchievements"])
+					core:printMessage(L["Core_IncompletedAchievements"] .. " " .. achievements)
 				end
 			end
 		end
